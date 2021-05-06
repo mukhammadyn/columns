@@ -68,15 +68,19 @@ body {
   margin-top: 83px;
   cursor: pointer;
   border: 1px solid transparent;
+  transition: background-color 0.4s ease,
+    color 0.4s ease;
 }
 
 .column-btn:hover {
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
+  transition: background-color 0.4s ease,
+    color 0.4s ease;
 }
 
-.one {
+.one{
   background: #E28625;
 }
 
@@ -84,6 +88,14 @@ body {
   background: #006971;
 }
 
+.two a {
+  color: #006971;
+}
+
 .three {
   background: #004140;
+}
+
+.three a {
+  color: #004140;
 }
