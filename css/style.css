@@ -30,6 +30,7 @@ body {
 .column {
   width: 306px;
   padding: 48px;
+  border-radius: 8px;
 }
 
 .column-title {
